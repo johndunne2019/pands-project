@@ -42,14 +42,17 @@ Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title
 Fisher had a keen interest in Eugenics which is the improvement of the human race by selective breeding. In 1911, he formed Cambridge University's Eugenics Society, which included amongst it's members Charles Darwin's son. The following is a quote from Fisher:
 
 >We can set no limit to human potentialities; all that is best in man can be bettered; it is not a question of producing a highly efficient machine, … but of quickening all the distinctly human features, all that is best in man, all the different qualities, some obvious, some infinitely subtle, which we recognize as humanly excellent
+Taken from: https://www.famousscientists.org/ronald-fisher/
+
 
 **Lady Tasting Tea**
 
-Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. 
+Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiemnt in his book <The Design of Experiments>.The experiment originalted when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. Fisher set about disproving this claim by designing the experiment which consisted of 8 cups of tea, 4 made with the tea infused first and 4 made with the milk infused first. 
 
 **What is the Fisher's Iris Data Set**
 
 The Fisher's Iris data set is 
+
 
 
 ## The Fisher's Iris Data Set
@@ -63,4 +66,5 @@ The Fisher's Iris data set is
 
 * Formatting Readme File: https://guides.github.com/features/mastering-markdown/
 * Ronald Fisher: https://www.famousscientists.org/ronald-fisher/, https://www.britannica.com/biography/Ronald-Aylmer-Fisher, http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html
-
+* Lady Tasting Tea: https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
+* Fisher's Iris Data Set: https://archive.ics.uci.edu/ml/datasets/iris

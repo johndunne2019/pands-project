@@ -47,7 +47,7 @@ Taken from: https://www.famousscientists.org/ronald-fisher/
 
 **Lady Tasting Tea**
 
-Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiemnt in his book <The Design of Experiments>.The experiment originalted when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. Fisher set about disproving this claim by designing the experiment which consisted of 8 cups of tea, 4 made with the tea infused first and 4 made with the milk infused first. 
+Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiemnt in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. Fisher set about disproving this claim by designing the experiment which consisted of 8 cups of tea, 4 made with the tea infused first and 4 made with the milk infused first. 
 
 **Introduction to the Fisher's Iris Data Set**
 
@@ -56,16 +56,14 @@ The Fisher's Iris data set is
 
 ## The Fisher's Iris Data Set
 
-**The Fisher's Iris data set is included in this section**
-
 **Contents of the Data Set**
 
-There are 150 rows of data in the data set each representing an iris flower. Detailer below are the contents of each column of data in the data set:
+There are 150 rows of data in the data set each representing an iris flower. Detailed below are the contents of each column of data in the data set:
 
 1. Column 1 contains sepal length in cm
 2. Column 2 contains sepal width in cm
 3. Column 3 contains petal length in cm
-4. Column contains petal length in cm
+4. Column 4 contains petal length in cm
 5. Column 5 contains the class:
     * Iris Sentosa
     * Iris Versicolour

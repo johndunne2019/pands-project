@@ -50,9 +50,13 @@ Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title
 
 Quote from: https://www.famousscientists.org/ronald-fisher/
 
-* Ronald volunteered for the British Army at the beginning of World War I but was rejects=ed because of his poor sight. 
+* Ronald volunteered for the British Army at the beginning of World War I but was rejected because of his poor sight. 
 * He became a school teacher in 1914 teaching mathematics and physics. 
 * In 1919 he became a statistician at Rothamsted Experimental Station which afforded him the opportunity to analyse data that had been collected as far back as 1842.
+* In 1925, Fisher published a book "Statistical Methods for Research Workers" which went on to be widely acclaimed as a revolutionary piece of work on statistics and biology. 
+* In 1935, Fisher released his book "The Design of Experiments" in which he introduced the concept of null hypothesis. 
+* In 1952 Fisher was knighted by Queen Elizabeth becoming Sir Ronald Aylmer Fisher. 
+* In all, Fisher wrote 7 books and approximately 400 academic papers in the field of statistics. 
 
 **Lady Tasting Tea**
 

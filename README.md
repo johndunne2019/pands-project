@@ -37,14 +37,18 @@ The author of the Fisher's Iris data set is Ronald Fisher (pictured below).
 
 Image taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG
 
-Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title "father of statistics". He is widely acclaimed as one of the greatest statisticians ever. Despite this, Fisher was primarily a Biologist and according to the author Richard Hawkins, he was the greatest biologist since Charles Darwin. Ronald Fisher was born in London on February 17, 1890. Ronald suffered from shortsightedness and as a result was not allowed to read under an electric light. Despite this disability Ronald was widely acclaimed as a very bright student by his teachers and received scholarships for his education. in 1909, Fisher was awarded a scholarship to study mathematics as the University of Cambridge and he graduated with a first class honours in 1912. 
+Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title "father of statistics". He is widely acclaimed as one of the greatest statisticians ever. Despite this, Fisher was primarily a Biologist and according to the author Richard Hawkins, he was the greatest biologist since Charles Darwin. 
 
-**Eugenics**
+**Interesting facts about Ronald Fisher**
 
-Fisher had a keen interest in Eugenics which is the improvement of the human race by selective breeding. In 1911, he formed Cambridge University's Eugenics Society, which included amongst it's members Charles Darwin's son. The following is a quote from Fisher:
+* Ronald Fisher was born in London on February 17, 1890. 
+* Ronald suffered from shortsightedness and as a result was not allowed to read under an electric light. Despite this disability Ronald was widely acclaimed as a very bright student by his teachers and received scholarships for his education. 
+* In 1909, Fisher was awarded a scholarship to study mathematics as the University of Cambridge and he graduated with a first class honours in 
+* Fisher had a keen interest in Eugenics which is the improvement of the human race by selective breeding. In 1911, he formed Cambridge University's Eugenics Society, which included amongst it's members Charles Darwin's son. The following is a quote from Fisher:
 
->We can set no limit to human potentialities; all that is best in man can be bettered; it is not a question of producing a highly efficient machine, … but of quickening all the distinctly human features, all that is best in man, all the different qualities, some obvious, some infinitely subtle, which we recognize as humanly excellent
-Taken from: https://www.famousscientists.org/ronald-fisher/
+*"We can set no limit to human potentialities; all that is best in man can be bettered; it is not a question of producing a highly efficient machine, … but of quickening all the distinctly human features, all that is best in man, all the different qualities, some obvious, some infinitely subtle, which we recognize as humanly excellent"*
+
+Quote from: https://www.famousscientists.org/ronald-fisher/
 
 
 **Lady Tasting Tea**

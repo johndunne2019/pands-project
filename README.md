@@ -52,6 +52,7 @@ Quote from: https://www.famousscientists.org/ronald-fisher/
 
 * Ronald volunteered for the British Army at the beginning of World War I but was rejected because of his poor sight. 
 * He became a school teacher in 1914 teaching mathematics and physics. 
+* He married Ruth Guinness in 1917 and they had 7 daughters and 2 sons together. Their eldest son George was killed in action in World War II in 1943. 
 * In 1919 he became a statistician at Rothamsted Experimental Station which afforded him the opportunity to analyse data that had been collected as far back as 1842.
 * In 1925, Fisher published a book "Statistical Methods for Research Workers" which went on to be widely acclaimed as a revolutionary piece of work on statistics and biology. 
 * In 1935, Fisher released his book "The Design of Experiments" in which he introduced the concept of null hypothesis. 
@@ -71,16 +72,21 @@ The Fisher's Iris data set is
 
 **Contents of the Data Set**
 
-There are 150 rows of data in the data set each representing an iris flower. Detailed below are the contents of each column of data in the data set:
+There are 150 rows of data in the data set in total, each representing a species of Iris flower. There are 3 species in total with 50 rows of data on each species. 
 
-1. Column 1 contains sepal length in cm
-2. Column 2 contains sepal width in cm
-3. Column 3 contains petal length in cm
+* Iris Sentosa
+* Iris Versicolour
+* Iris Virginica 
+
+Detailed below are the contents of each column of data in the data set:
+
+1. Column 1 is ID number of the 
+2. Column 2 contains sepal length in cm
+3. Column 3 contains sepal width in cm
 4. Column 4 contains petal length in cm
-5. Column 5 contains the class:
-    * Iris Sentosa
-    * Iris Versicolour
-    * Iris Virginica 
+5. Column 5 contains petal length in cm
+6. Column 6 contains the name of the species of Iris flower
+  
 
 
 ## References
@@ -102,3 +108,5 @@ There are 150 rows of data in the data set each representing an iris flower. Det
 
 *Fisher's Iris Data Set:*
 * https://archive.ics.uci.edu/ml/datasets/iris
+
+* Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.

@@ -41,15 +41,18 @@ Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title
 
 **Interesting facts about Ronald Fisher**
 
-* Ronald Fisher was born in London on February 17, 1890. 
+* Ronald Fisher was born in London on February 17, 1890 and died in Adelaide, Australia on July 29, 1962. 
 * Ronald suffered from shortsightedness and as a result was not allowed to read under an electric light. Despite this disability Ronald was widely acclaimed as a very bright student by his teachers and received scholarships for his education. 
-* In 1909, Fisher was awarded a scholarship to study mathematics as the University of Cambridge and he graduated with a first class honours in 
+* In 1909, Fisher was awarded a scholarship to study mathematics as the University of Cambridge and he graduated with a first class honours.
 * Fisher had a keen interest in Eugenics which is the improvement of the human race by selective breeding. In 1911, he formed Cambridge University's Eugenics Society, which included amongst it's members Charles Darwin's son. The following is a quote from Fisher:
 
 *"We can set no limit to human potentialities; all that is best in man can be bettered; it is not a question of producing a highly efficient machine, … but of quickening all the distinctly human features, all that is best in man, all the different qualities, some obvious, some infinitely subtle, which we recognize as humanly excellent"*
 
 Quote from: https://www.famousscientists.org/ronald-fisher/
 
+* Ronald volunteered for the British Army at the beginning of World War I but was rejects=ed because of his poor sight. 
+* He became a school teacher in 1914 teaching mathematics and physics. 
+* In 1919 he became a statistician at Rothamsted Experimental Station which afforded him the opportunity to analyse data that had been collected as far back as 1842.
 
 **Lady Tasting Tea**
 
@@ -80,8 +83,18 @@ There are 150 rows of data in the data set each representing an iris flower. Det
 
 **This section contains details on the references and research that went into compiling this project.**
 
-* Formatting Readme File: https://guides.github.com/features/mastering-markdown/
-* Ronald Fisher: https://www.famousscientists.org/ronald-fisher/, https://www.britannica.com/biography/Ronald-Aylmer-Fisher, http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html
-* Lady Tasting Tea: https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
-* Fisher's Iris Data Set: https://archive.ics.uci.edu/ml/datasets/iris
-* Ronald Fisher: http://www.42evolution.org/ronald-a-fisher/
+*Formatting Readme File:*
+* https://guides.github.com/features/mastering-markdown/
+
+*Ronald Fisher:*
+* https://www.famousscientists.org/ronald-fisher/
+* https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+* http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html
+* http://www.42evolution.org/ronald-a-fisher/
+* https://www.umass.edu/wsp/resources/tales/fisher.html
+
+*Lady Tasting Tea:* 
+* https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
+
+*Fisher's Iris Data Set:*
+* https://archive.ics.uci.edu/ml/datasets/iris

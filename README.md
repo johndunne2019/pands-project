@@ -31,7 +31,7 @@ The author of the Fisher's Iris data set is Ronald Fisher (pictured below).
 
 ![Image of Ronald Fisher](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG)
 
-Image taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG
+*Image taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG*
 
 Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title "father of statistics". He is widely acclaimed as one of the greatest statisticians ever. Despite this, Fisher was primarily a Biologist and according to the author Richard Hawkins, he was the greatest biologist since Charles Darwin. 
 
@@ -114,3 +114,10 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 * https://archive.ics.uci.edu/ml/datasets/iris
 
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.
+
+*Calculating the mean of a column in the data set*
+
+* Week 9 video on matplotlib pyplot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
+* Week 9 video on numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91
+* Numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
+* pyplot tutorial: https://matplotlib.org/users/pyplot_tutorial.html

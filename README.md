@@ -33,7 +33,9 @@ This section contains a brief summary of the Fisher's Iris Data set and some bac
 
 The author of the Fisher's Iris data set is Ronald Fisher (pictured below). 
 
-![Image of Ronald Fisher](http://www.42evolution.org/wp-content/uploads/2014/07/Ronald-Fisher-from-Royal-Society.jpg)
+![Image of Ronald Fisher](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG)
+
+Image taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG
 
 Ronald Fisher was born in 1890 and died in 1962 and is widely known by the title "father of statistics". He is widely acclaimed as one of the greatest statisticians ever. Despite this, Fisher was primarily a Biologist and according to the author Richard Hawkins, he was the greatest biologist since Charles Darwin. Ronald Fisher was born in London on February 17, 1890. Ronald suffered from shortsightedness and as a result was not allowed to read under an electric light. Despite this disability Ronald was widely acclaimed as a very bright student by his teachers and received scholarships for his education. in 1909, Fisher was awarded a scholarship to study mathematics as the University of Cambridge and he graduated with a first class honours in 1912. 
 
@@ -78,3 +80,4 @@ There are 150 rows of data in the data set each representing an iris flower. Det
 * Ronald Fisher: https://www.famousscientists.org/ronald-fisher/, https://www.britannica.com/biography/Ronald-Aylmer-Fisher, http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html
 * Lady Tasting Tea: https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 * Fisher's Iris Data Set: https://archive.ics.uci.edu/ml/datasets/iris
+* Ronald Fisher: http://www.42evolution.org/ronald-a-fisher/

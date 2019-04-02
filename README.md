@@ -2,7 +2,7 @@
 
 ## Programming and Scripting 2019 Project
 
-This repository contains my project 2019 for the module Programming and Scripting at GMIT. See here for the instructions: https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf. 
+This repository contains my project 2019 for the module Programming and Scripting at GMIT. See here for the instructions: https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf. References and resources I used in compiling this project are listed in the references section at the foot of this Readme file. 
 
 ## About this Project
 
@@ -25,11 +25,7 @@ John Dunne
 4. Save the repository to a local folder location on your machine.
 5. You will need to navigate to this folder location on the command line in order to run the program.
 
-## Introduction to the Fisher's Iris data set
-
-This section contains a brief summary of the Fisher's Iris Data set and some background information on the data set. The information in this section is compiled from the research I conducted online and details of references are included in the references section at the end of this file. 
-
-**Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)**
+## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 
 The author of the Fisher's Iris data set is Ronald Fisher (pictured below). 
 
@@ -63,29 +59,35 @@ Quote from: https://www.famousscientists.org/ronald-fisher/
 
 Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiemnt in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. Fisher set about disproving this claim by designing the experiment which consisted of 8 cups of tea, 4 made with the tea infused first and 4 made with the milk infused first. 
 
-**Introduction to the Fisher's Iris Data Set**
+## Introduction to the Fisher's Iris Data Set
 
 The Fisher's Iris data set is 
 
 
-## The Fisher's Iris Data Set
-
-**Contents of the Data Set**
+**Contents of the Fisher's Iris Data Set**
 
 There are 150 rows of data in the data set in total, each representing a species of Iris flower. There are 3 species in total with 50 rows of data on each species. 
 
-* Iris Sentosa
-* Iris Versicolour
+* Iris Setosa
+* Iris Versicolor
 * Iris Virginica 
 
 Detailed below are the contents of each column of data in the data set:
 
-1. Column 1 is ID number of the 
-2. Column 2 contains sepal length in cm
-3. Column 3 contains sepal width in cm
+1. Column 1 contains sepal length in cm
+2. Column 2 contains sepal width in cm
+3. Column 3 contains petal length in cm
 4. Column 4 contains petal length in cm
-5. Column 5 contains petal length in cm
-6. Column 6 contains the name of the species of Iris flower
+5. Column 5 contains the name of the species of Iris flower
+
+**The Data set in more detail**
+
+
+
+
+## My Analysis of the Fisher's Iris Data Set
+
+
   
 
 

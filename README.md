@@ -26,6 +26,11 @@ John Dunne
 5. You will need to navigate to this folder location on the command line in order to run the program.
 6. Details on how to run each individual script in this repository is included later in this Readme file.
 
+## Contents of this repository
+* Readme File
+* Fishers_Iris_data_set.csv
+* Mean_Fisher_Iris.py
+
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 
 The author of the Fisher's Iris data set is Ronald Fisher (pictured below). 
@@ -62,7 +67,7 @@ Apart from the Fisher Iris data set Ronald Fisher is also famous for another pro
 
 ## Introduction to the Fisher's Iris Data Set
 
-The Fisher's Iris data set is 
+The Fisher's Iris data set is a multivariate data set that was introduced by Ronald Fisher in 1936. 
 
 
 **Contents of the Fisher's Iris Data Set**
@@ -72,6 +77,10 @@ There are 150 rows of data in the data set in total, each representing a species
 * Iris Setosa
 * Iris Versicolor
 * Iris Virginica 
+
+*"The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other."*
+
+Quote from: http://archive.ics.uci.edu/ml/datasets/iris
 
 **Detailed below are the contents of each column of data in the data set:**
 
@@ -90,7 +99,7 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 ## My Analysis of the Fisher's Iris Data Set
 
-In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the date set. 
+In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the data set. 
 
 **Fishers_Iris_data_set.csv**
 
@@ -128,6 +137,9 @@ This file contains a program that calculates the mean of the columns of data in 
 
 *Fisher's Iris Data Set:*
 * https://archive.ics.uci.edu/ml/datasets/iris
+* https://support.sas.com/documentation/cdl/en/statug/63962/HTML/default/viewer.htm#statug_sashelp_sect007.htm
+* https://www.youtube.com/watch?v=PlrEJfvZRNo
+* https://www.youtube.com/watch?v=hd1W4CyPX58
 
 *Fishers_Iris_data_set.csv:*
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.

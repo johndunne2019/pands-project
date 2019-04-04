@@ -13,15 +13,12 @@ data = np.genfromtxt('Fishers_Iris_data_set.csv',delimiter= ',', skip_header=1)
 # skip_header used to skip the first row of data in the file, when i first wrote this script i was returned the value nan (not a number)
 # I read about using skip_header here: https://docs.scipy.org/doc/numpy-1.13.0/user/basics.io.genfromtxt.html
 
-sepal_lenght= data[:,0]
-# variable sepal_lenght introduced and set equal to the first column of data
-sepal_width= data[:,1]
-
 meansepal_lenght= np.mean(data[:,0])
 # numpy.mean used to calculate the mean of the first column of data
 meansepal_width= np.mean(data[:,1])
-
+meanpetal_lenght= np.mean(data[:,2])
 print(f"The mean of the first column of data- sepal lenght is: {meansepal_lenght} rounded to one decimal place {(round(meansepal_lenght, 1))}")
 # The output has been set to return the mean of the first column of data and the mean rounded to one decimal place
 # formatted string used to return the sentence when the program is run
 print(f"The mean of the second column of data- sepal width is: {meansepal_width} rounded to one decimal place {(round(meansepal_width, 1))}")
+print(f"The mean of the third column of data- petal lenght is: {meanpetal_lenght} rounded to one decimal place {(round(meanpetal_lenght, 1))}")

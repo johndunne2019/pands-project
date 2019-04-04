@@ -67,7 +67,12 @@ Apart from the Fisher Iris data set Ronald Fisher is also famous for another pro
 
 ## Introduction to the Fisher's Iris Data Set
 
-The Fisher's Iris data set is a multivariate data set that was introduced by Ronald Fisher in 1936 in his paper - "The use of multiple measurements in taxonomic problems".
+The Fisher's Iris data set is a multivariate data set that was introduced by Ronald Fisher in 1936 in his paper - "The use of multiple measurements in taxonomic problems". The data set is also referred to as the Edgar Anderson data set as it was Edgar Anderson who collected the data. 
+
+*"It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify themorphologic variation of Iris ﬂowers of three related species."* - https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
+
+
+https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
 
 
 **Contents of the Fisher's Iris Data Set**
@@ -99,7 +104,6 @@ The Iris flower is a perennial flower meaning it lives longer than two years and
 **Iris Setosa**
 
 The Iris setosa is a short, grass leaved species native to Siberia and Alaska. It is tolerant to cold temperatures and the petals are lavender blue with silvery-white veining. 
-From: http://www.perennials.com/plants/iris-setosa-var-arctica.html
 
 
 ![Image of iris setosa](http://www.twofrog.com/images/iris38a.jpg)
@@ -110,7 +114,6 @@ Image from: http://www.twofrog.com/images/iris38a.jpg
 **Iris Versicolor**
 
 The Iris Versicolor is a wild flower of Eastern North America. It performs well in shallow water or by waterside but can also perform well under average border conditions. 
-From: http://www.perennials.com/plants/iris-versicolor.html
 
 ![Image of iris versicolor](https://mk0gardengoodsd3tst9.kinstacdn.com/wp-content/uploads/2017/03/Iris_versicolor_3.jpg)
 
@@ -125,7 +128,7 @@ The Iris Virginica also known as the Southern Blueflag is best grown in wet, bog
 Image from: http://images.mobot.org/TropicosImages2/PlantRecordImages/prod/small240/00004000/4366_Y390-0901020.jpg
 
 
-**What is the difference between Sepal and Petal**
+**What is the difference between Sepal and Petal?**
 
 Sepals are recurved in such a manner to allow bees to land on them whilst petals are upright. You can see the difference in the image below. 
 
@@ -173,7 +176,7 @@ This file contains a program that calculates the mean of the columns of data in 
 *Formatting Readme File:*
 * https://guides.github.com/features/mastering-markdown/
 
-*Ronald Fisher:*
+*Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962):*
 * https://www.famousscientists.org/ronald-fisher/
 * https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 * http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html
@@ -189,6 +192,7 @@ This file contains a program that calculates the mean of the columns of data in 
 * https://www.youtube.com/watch?v=PlrEJfvZRNo
 * Scikit learn - to revisit later -https://www.youtube.com/watch?v=hd1W4CyPX58
 * https://diwashrestha.com/2017/09/18/machine-learning-on-iris/
+* https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
 
 *The Iris Flower*
 * https://www.gardendesign.com/flowers/iris.html
@@ -204,7 +208,7 @@ This file contains a program that calculates the mean of the columns of data in 
 * https://plants.ces.ncsu.edu/plants/all/iris-virginica/
 * http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=y390
 
-*The difference between sepal and petal*
+*What is the difference between sepal and petal?:*
 * https://www.fs.fed.us/wildflowers/beauty/iris/flowers.shtml
 * https://www.theflowerexpert.com/content/mostpopularflowers/morepopularflowers/iris
 * https://www.almanac.com/plant/irises

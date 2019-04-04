@@ -89,7 +89,9 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 ## My Analysis of the Fisher's Iris Data Set
 
+**Mean_Fisher_Iris.py**
 
+This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. 
   
 
 

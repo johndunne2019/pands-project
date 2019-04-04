@@ -94,12 +94,23 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 **The Iris Flower**
  
-The Iris flower is a perennial flower meaning it live longer than two years and the flower is notably easy to grow. 
+The Iris flower is a perennial flower meaning it lives longer than two years and the flower is notably easy to grow. 
+
+**Iris Setosa**
+
+The Iris setosa is a short, grass leaved species native to Siberia and Alaska. It is tolerant to cold temperatures and the petals are lavender blue with silvery-white veining. 
+From: http://www.perennials.com/plants/iris-setosa-var-arctica.html
+
+
+![Image of iris setosa](http://www.perennials.com/watermark.php?path=perennials/1-289-300.jpg&watermark=images/watermark_heritage.png&xpos=.88&ypos=.95)
+Image from: http://www.perennials.com/watermark.php?path=perennials/1-289-300.jpg&watermark=images/watermark_heritage.png&xpos=.88&ypos=.95
 
 **What is the difference between Sepal and Petal**
 
 Sepals are recurved in such a manner to allow bees to land on them whilst petals are upright. You can see the difference in the image below. 
+
 *"The distinctive flowers have three large outer petals called “falls” and three inner upright petals called “standards.” The falls may have beards or crests. Bearded iris are so-called because they have soft hairs along the center of the falls. In crested iris, the hairs form a comb or ridge."*
+
 Quote from: https://www.almanac.com/plant/irises
 
 
@@ -158,6 +169,9 @@ This file contains a program that calculates the mean of the columns of data in 
 * https://www.youtube.com/watch?v=PlrEJfvZRNo
 * Scikit learn - to revisit later -https://www.youtube.com/watch?v=hd1W4CyPX58
 * https://diwashrestha.com/2017/09/18/machine-learning-on-iris/
+
+*The Iris Flower*
+* https://www.gardendesign.com/flowers/iris.html
 
 *The difference between sepal and petal*
 * https://www.fs.fed.us/wildflowers/beauty/iris/flowers.shtml

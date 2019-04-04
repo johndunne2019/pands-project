@@ -89,9 +89,20 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 ## My Analysis of the Fisher's Iris Data Set
 
+**Fishers_Iris_data_set.csv**
+
+This file is a csv file containing the Fisher's Iris data set which I downloaded from the internet and saved in my repository. Further details in the references section of this Readme file. 
+
 **Mean_Fisher_Iris.py**
 
-This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. 
+This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. I used the genfromtxt function to read the csv file and set the delimiter as comma. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. I asked for the mean of the first 4 columns of the data set to be calculated and printed as output plus a sentence informing the user about the contents of the fifth column of the data set. In writing this script I used the week 9 lectures on numpy and matplotlib as a starting point and developed the code through further research which is detailed in the references section of this Readme file. 
+
+* How to run the program: Mean_Fisher_Iris.py:
+    * Download my repository to your local machine
+    * 
+    * Open cmder or command prompt and cd (change directory) to the folder where the repository has been downloaded to
+    * Type python Mean_Fisher_Iris.py and the enter button
+    * The output will appear on the command line 
   
 
 
@@ -115,9 +126,10 @@ This file contains a program that calculates the mean of the columns of data in 
 *Fisher's Iris Data Set:*
 * https://archive.ics.uci.edu/ml/datasets/iris
 
+*Fishers_Iris_data_set.csv:*
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.
 
-*Calculating the mean of a column in the data set*
+*Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 
 * Week 9 video on matplotlib pyplot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
 * Week 9 video on numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91

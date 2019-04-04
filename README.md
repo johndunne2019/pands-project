@@ -24,6 +24,7 @@ John Dunne
 3. Click the clone/download button.
 4. Save the repository to a local folder location on your machine.
 5. You will need to navigate to this folder location on the command line in order to run the program.
+6. Details on how to run each individual script in this repository is included later in this Readme file.
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 
@@ -72,7 +73,7 @@ There are 150 rows of data in the data set in total, each representing a species
 * Iris Versicolor
 * Iris Virginica 
 
-Detailed below are the contents of each column of data in the data set:
+**Detailed below are the contents of each column of data in the data set:**
 
 1. Column 1 contains sepal length in cm
 2. Column 2 contains sepal width in cm
@@ -89,6 +90,8 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 ## My Analysis of the Fisher's Iris Data Set
 
+In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the date set. 
+
 **Fishers_Iris_data_set.csv**
 
 This file is a csv file containing the Fisher's Iris data set which I downloaded from the internet and saved in my repository. Further details in the references section of this Readme file. 
@@ -98,11 +101,11 @@ This file is a csv file containing the Fisher's Iris data set which I downloaded
 This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. I used the genfromtxt function to read the csv file and set the delimiter as comma. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. I asked for the mean of the first 4 columns of the data set to be calculated and printed as output plus a sentence informing the user about the contents of the fifth column of the data set. In writing this script I used the week 9 lectures on numpy and matplotlib as a starting point and developed the code through further research which is detailed in the references section of this Readme file. 
 
 * How to run the program: Mean_Fisher_Iris.py:
-    * Download my repository to your local machine
-    * 
-    * Open cmder or command prompt and cd (change directory) to the folder where the repository has been downloaded to
-    * Type python Mean_Fisher_Iris.py and the enter button
-    * The output will appear on the command line 
+    * Download my repository to your local machine.
+    * Please note- The csv file - Fishers_Iris_data_set.csv must also be downloaded to the same folder for this program to run correctly.
+    * Open cmder or command prompt and cd (change directory) to the folder where the repository has been downloaded.
+    * Type python Mean_Fisher_Iris.py and the enter button.
+    * The output will appear on the command line.
   
 
 

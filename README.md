@@ -95,7 +95,7 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 
 
-![Image of Iris Flower] (https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif)
+![Image of Iris Flower](https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif)
 
 Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
 **The Data set in more detail**

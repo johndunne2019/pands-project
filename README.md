@@ -116,6 +116,14 @@ From: http://www.perennials.com/plants/iris-versicolor.html
 
 Image from: https://mk0gardengoodsd3tst9.kinstacdn.com/wp-content/uploads/2017/03/Iris_versicolor_3.jpg
 
+**Iris Virginica**
+
+The Iris Virginica also known as the Southern Blueflag is best grown in wet, boggy, acidic soils and is native to America.  It can be poisonous if ingested. 
+
+![image of iris virginica](http://images.mobot.org/TropicosImages2/PlantRecordImages/prod/small240/00004000/4366_Y390-0901020.jpg)
+
+Image from: http://images.mobot.org/TropicosImages2/PlantRecordImages/prod/small240/00004000/4366_Y390-0901020.jpg
+
 
 **What is the difference between Sepal and Petal**
 
@@ -191,6 +199,10 @@ This file contains a program that calculates the mean of the columns of data in 
 *Iris Versicolor*
 * http://www.perennials.com/plants/iris-versicolor.html
 * https://mk0gardengoodsd3tst9.kinstacdn.com/wp-content/uploads/2017/03/Iris_versicolor_3.jpg
+
+*Iris Virginica*
+* https://plants.ces.ncsu.edu/plants/all/iris-virginica/
+* http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=y390
 
 *The difference between sepal and petal*
 * https://www.fs.fed.us/wildflowers/beauty/iris/flowers.shtml

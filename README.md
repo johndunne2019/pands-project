@@ -102,8 +102,19 @@ The Iris setosa is a short, grass leaved species native to Siberia and Alaska. I
 From: http://www.perennials.com/plants/iris-setosa-var-arctica.html
 
 
-![Image of iris setosa](http://www.perennials.com/watermark.php?path=perennials/1-289-300.jpg&watermark=images/watermark_heritage.png&xpos=.88&ypos=.95)
-Image from: http://www.perennials.com/watermark.php?path=perennials/1-289-300.jpg&watermark=images/watermark_heritage.png&xpos=.88&ypos=.95
+![Image of iris setosa](http://www.twofrog.com/images/iris38a.jpg)
+Image from: http://www.twofrog.com/images/iris38a.jpg
+
+
+**Iris Versicolor**
+
+The Iris Versicolor is a wild flower of Eastern North America. Ir performs well in shallow water or by waterside but can also perform well under average border conditions. 
+From: http://www.perennials.com/plants/iris-versicolor.html
+
+![Image of iris versicolor](https://www.iris-cayeux.com/3770-large_default/the-flowers-are-blue-violet-and-the-plant-develops-abundant-bright-green-foliage-which-arches-down.jpg)
+
+Image from: https://www.iris-cayeux.com/3770-large_default/the-flowers-are-blue-violet-and-the-plant-develops-abundant-bright-green-foliage-which-arches-down.jpg
+
 
 **What is the difference between Sepal and Petal**
 
@@ -172,6 +183,13 @@ This file contains a program that calculates the mean of the columns of data in 
 
 *The Iris Flower*
 * https://www.gardendesign.com/flowers/iris.html
+
+*Iris Setosa:*
+* http://www.perennials.com/plants/iris-setosa-var-arctica.html
+
+*Iris Versicolor*
+* http://www.perennials.com/plants/iris-versicolor.html
+* https://www.iris-cayeux.com/3770-large_default/the-flowers-are-blue-violet-and-the-plant-develops-abundant-bright-green-foliage-which-arches-down.jpg
 
 *The difference between sepal and petal*
 * https://www.fs.fed.us/wildflowers/beauty/iris/flowers.shtml

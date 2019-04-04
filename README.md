@@ -67,7 +67,7 @@ Apart from the Fisher Iris data set Ronald Fisher is also famous for another pro
 
 ## Introduction to the Fisher's Iris Data Set
 
-The Fisher's Iris data set is a multivariate data set that was introduced by Ronald Fisher in 1936. 
+The Fisher's Iris data set is a multivariate data set that was introduced by Ronald Fisher in 1936 in his paper - "The use of multiple measurements in taxonomic problems".
 
 
 **Contents of the Fisher's Iris Data Set**
@@ -92,6 +92,12 @@ Quote from: http://archive.ics.uci.edu/ml/datasets/iris
 
 The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
+
+
+
+![Image of Iris Flower] (https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif)
+
+Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
 **The Data set in more detail**
 
 
@@ -139,7 +145,8 @@ This file contains a program that calculates the mean of the columns of data in 
 * https://archive.ics.uci.edu/ml/datasets/iris
 * https://support.sas.com/documentation/cdl/en/statug/63962/HTML/default/viewer.htm#statug_sashelp_sect007.htm
 * https://www.youtube.com/watch?v=PlrEJfvZRNo
-* https://www.youtube.com/watch?v=hd1W4CyPX58
+* Scikit learn - to revisit later -https://www.youtube.com/watch?v=hd1W4CyPX58
+* https://diwashrestha.com/2017/09/18/machine-learning-on-iris/
 
 *Fishers_Iris_data_set.csv:*
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.

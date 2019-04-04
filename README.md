@@ -123,4 +123,6 @@ This file contains a program that calculates the mean of the columns of data in 
 * Week 9 video on numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91
 * Numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
 * pyplot tutorial: https://matplotlib.org/users/pyplot_tutorial.html
+* Using genfromtxt: https://www.numpy.org/devdocs/user/basics.io.genfromtxt.html
+* numpy.mean to calculate mean: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html
 * Skip_Header to skip the first row of data when calculating the mean: https://docs.scipy.org/doc/numpy-1.13.0/user/basics.io.genfromtxt.html

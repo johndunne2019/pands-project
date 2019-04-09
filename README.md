@@ -94,7 +94,9 @@ The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
 
 **What is unique about the Fisher's Iris data set?**
 
-The Fisher's Iris data set is a data set that is commonly used in machine learning. 
+The Fisher's Iris data set is a data set that is commonly used in machine learning. One very significant feature of the data set is that the data concerning two of the species of Iris flowers are easy to separate from one another whilst it is difficult to separate the data concerning the other two species of Iris flowers.
+
+*"One flower species is linearly separable from the other two, but the other two are not linearly separable from each other."* - https://www.kaggle.com/meetsourav/clustering-with-iris-dataset
 
 *Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/*
 
@@ -197,6 +199,7 @@ This file contains a program that calculates the mean of the columns of data in 
 
 *What is unique about the Fisher's Iris data set?*
 * https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* https://www.kaggle.com/meetsourav/clustering-with-iris-dataset
 
 *The Iris Flower*
 * https://www.gardendesign.com/flowers/iris.html

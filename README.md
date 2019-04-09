@@ -80,9 +80,7 @@ There are 150 rows of data in the data set in total, each representing a species
 * Iris Versicolor
 * Iris Virginica 
 
-*"The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other."*
-
-Quote from: http://archive.ics.uci.edu/ml/datasets/iris
+*"The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other." -  http://archive.ics.uci.edu/ml/datasets/iris
 
 **Detailed below are the contents of each column of data in the data set:**
 
@@ -93,6 +91,18 @@ Quote from: http://archive.ics.uci.edu/ml/datasets/iris
 5. Column 5 contains the name of the species of Iris flower
 
 The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
+
+**What is unique about the Fisher's Iris data set?**
+
+The Fisher's Iris data set is a data set that is commonly used in machine learning. 
+
+*Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/*
+
+* Attributes are numeric so you have to figure out how to load and handle data.
+* It is a classification problem, allowing you to practice with perhaps an easier type of supervised learning algorithm.
+* It is a multi-class classification problem (multi-nominal) that may require some specialized handling.
+* It only has 4 attributes and 150 rows, meaning it is small and easily fits into memory (and a screen or A4 page).
+* All of the numeric attributes are in the same units and the same scale, not requiring any special scaling or transforms to get started.
 
 **The Iris Flower**
  
@@ -129,19 +139,13 @@ Image from: http://images.mobot.org/TropicosImages2/PlantRecordImages/prod/small
 
 Sepals are recurved in such a manner to allow bees to land on them whilst petals are upright. You can see the difference in the image below. 
 
-*"The distinctive flowers have three large outer petals called “falls” and three inner upright petals called “standards.” The falls may have beards or crests. Bearded iris are so-called because they have soft hairs along the center of the falls. In crested iris, the hairs form a comb or ridge."*
-
-Quote from: https://www.almanac.com/plant/irises
+*"The distinctive flowers have three large outer petals called “falls” and three inner upright petals called “standards.” The falls may have beards or crests. Bearded iris are so-called because they have soft hairs along the center of the falls. In crested iris, the hairs form a comb or ridge."* - https://www.almanac.com/plant/irises
 
 
 
 ![Image of Iris Flower](https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif)
 
 Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
-
-
-## Why is the data set famous
-
 
 
 
@@ -190,6 +194,9 @@ This file contains a program that calculates the mean of the columns of data in 
 * Scikit learn - to revisit later -https://www.youtube.com/watch?v=hd1W4CyPX58
 * https://diwashrestha.com/2017/09/18/machine-learning-on-iris/
 * https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
+
+*What is unique about the Fisher's Iris data set?*
+* https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 *The Iris Flower*
 * https://www.gardendesign.com/flowers/iris.html

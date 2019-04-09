@@ -72,9 +72,6 @@ The Fisher's Iris data set is a multivariate data set that was introduced by Ron
 *"It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify themorphologic variation of Iris ﬂowers of three related species."* - https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
 
 
-https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
-
-
 **Contents of the Fisher's Iris Data Set**
 
 There are 150 rows of data in the data set in total, each representing a species of Iris flower. There are 3 species in total with 50 rows of data on each species. 
@@ -92,7 +89,7 @@ Quote from: http://archive.ics.uci.edu/ml/datasets/iris
 1. Column 1 contains sepal length in cm
 2. Column 2 contains sepal width in cm
 3. Column 3 contains petal length in cm
-4. Column 4 contains petal length in cm
+4. Column 4 contains petal width in cm
 5. Column 5 contains the name of the species of Iris flower
 
 The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
@@ -143,7 +140,7 @@ Quote from: https://www.almanac.com/plant/irises
 Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
 
 
-**The Data set in more detail**
+## Why is the data set famous
 
 
 

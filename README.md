@@ -154,7 +154,7 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 **In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that will form part of my analysis of the data set and also to learn from these examples.**
 
-**https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
+**Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
 I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. I liked the dataset.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I will try to replicate something similar in my analysis of the data set. 
 

@@ -150,6 +150,14 @@ Sepals are recurved in such a manner to allow bees to land on them whilst petals
 Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
 
 
+##Examples of interesting analysis pursued by others into the Fisher's Iris data set
+
+**In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that will form part of my analysis of the data set and also to learn from these examples.**
+
+**https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
+
+I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. 
+
 
 ## My Analysis of the Fisher's Iris Data Set
 

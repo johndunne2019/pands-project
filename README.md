@@ -150,7 +150,7 @@ Sepals are recurved in such a manner to allow bees to land on them whilst petals
 Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.us/wildflowers/beauty/iris/images/blueflagiris_flower.gif
 
 
-##Examples of interesting analysis pursued by others into the Fisher's Iris data set
+## Examples of interesting analysis pursued by others into the Fisher's Iris data set
 
 **In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that will form part of my analysis of the data set and also to learn from these examples.**
 
@@ -178,7 +178,9 @@ This file contains a program that calculates the mean of the columns of data in 
     * Type python Mean_Fisher_Iris.py and the enter button.
     * The output will appear on the command line.
   
+**Analysis_Data_Set.py**
 
+I have started this script drawing on the reading of an example of an analysis into the data set that I found online: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 ## References
 
@@ -240,3 +242,6 @@ This file contains a program that calculates the mean of the columns of data in 
 * Using genfromtxt: https://www.numpy.org/devdocs/user/basics.io.genfromtxt.html
 * numpy.mean to calculate mean: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html
 * Skip_Header to skip the first row of data when calculating the mean: https://docs.scipy.org/doc/numpy-1.13.0/user/basics.io.genfromtxt.html
+
+*Analysis_Data_Set.py*
+* Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

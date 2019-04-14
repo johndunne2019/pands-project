@@ -246,5 +246,14 @@ This script provides a description of the data set to the user using the dataset
 * numpy.mean to calculate mean: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html
 * Skip_Header to skip the first row of data when calculating the mean: https://docs.scipy.org/doc/numpy-1.13.0/user/basics.io.genfromtxt.html
 
+*Dataset_Describe.py*
+
+* I first saw an example of the dataset.describe() being user to analyse the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* I then researched further: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and https://stackoverflow.com/questions/38545828/pandas-describe-by-additional-parameters
+* I read how to have the csv file read directly from my repository using the url link here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+* Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+* How to use dataset.describe() and what the output is: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+
 *Analysis_Data_Set.py*
 * Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

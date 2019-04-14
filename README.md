@@ -167,12 +167,13 @@ In this section I have detailed the analysis that I carried out on the Fisher's 
 This file is a csv file containing the Fisher's Iris data set which I downloaded from the internet and saved in my repository. Further details in the references section of this Readme file. I have then used the data set as saved in this csv file to write some short scripts used to analyse the data set. These scripts are explained in further detail in this section and you can download and run these scripts on your local machine following the instructions below. 
 
 **How to download each script and run on your machine**
-    * Download my repository to your local machine (further details at the beginning of this Readme file).
-    * Please note- The csv file - Fishers_Iris_data_set.csv must also be downloaded to the same folder for this program to run correctly.
-    * Open cmder or command prompt and cd (change directory) to the folder where the repository has been saved to on your local machine.
-    * Type python followed by the file name and press the enter key.
-    * The output will appear on the command line.
-    * An example would be to run the script "Mean_Fisher_Iris.py" you should type python Mean_Fisher_Iris.py in cmder or command prompt and press the enter key. 
+
+* Download my repository to your local machine (further details at the beginning of this Readme file).
+* Please note- The csv file - Fishers_Iris_data_set.csv must also be downloaded to the same folder for this program to run correctly.
+* Open cmder or command prompt and cd (change directory) to the folder where the repository has been saved to on your local machine.
+* Type python followed by the file name and press the enter key.
+* The output will appear on the command line.
+* An example would be to run the script "Mean_Fisher_Iris.py" you should type python Mean_Fisher_Iris.py in cmder or command prompt and press the enter key. 
 
 **Mean_Fisher_Iris.py**
 

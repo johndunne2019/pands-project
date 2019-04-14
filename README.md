@@ -63,7 +63,7 @@ Quote from: https://www.famousscientists.org/ronald-fisher/
 
 **Lady Tasting Tea**
 
-Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiment in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. 
+Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiment in his book - The Design of Experiments. The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. 
 
 *"We will consider the problem of designing an experiment by means of which this assertion can be tested. […] [It] consists in mixing eight cups of tea, four in one way and four in the other, and presenting them to the subject for judgment in a random order. The subject has been told in advance of that the test will consist, namely, that she will be asked to taste eight cups, that these shall be four of each kind […]. — Fisher, 1935."* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
@@ -95,7 +95,7 @@ There are 150 rows of data in the data set in total, each representing a species
 * Iris Versicolor
 * Iris Virginica 
 
-*"The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other." -  http://archive.ics.uci.edu/ml/datasets/iris
+*"The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other."* -  http://archive.ics.uci.edu/ml/datasets/iris
 
 **Detailed below are the contents of each column of data in the data set:**
 
@@ -105,7 +105,7 @@ There are 150 rows of data in the data set in total, each representing a species
 4. Column 4 contains petal width in cm
 5. Column 5 contains the name of the species of Iris flower
 
-The data set is available to view in my repository - "Fishers_Iris_data_set.csv"
+The data set is available to view in my repository - "Fishers_Iris_data_set.csv" at this link: https://github.com/johndunne2019/pands-project/blob/master/Fishers_Iris_data_set.csv
 
 **What is unique about the Fisher's Iris data set?**
 
@@ -171,7 +171,14 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 **Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
-I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. I liked the dataset.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I will try to replicate something similar in my analysis of the data set. 
+I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. pandas or Python Data Analysis Library is an open source library that provides data analysis tools for the python programming language. To further my knowledge of pandas I also read the ten minutes to pandas documentation here: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html.
+I liked the dataset.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I decided to use this feature in my analysis of the Fisher's Iris data set after reading this example analysis. 
+Also in this analysis the author has created a histogram of the data to give a clearer view of distribution of the data. I will also try to do something similar in my analysis of the data set. 
+The histogram created by the author in this analysis is shown below:
+
+![histogram](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/Histogram-Plots-for-Each-Input-Variable-for-the-Iris-Flowers-Dataset-1024x768.png)
+
+
 
 
 ## My Analysis of the Fisher's Iris Data Set
@@ -231,13 +238,16 @@ This script provides a description of the data set to the user using the datafra
 *Lady Tasting Tea:* 
 * https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
-*Fisher's Iris Data Set:*
+*Introduction to the Fisher's Iris Data Set*
 * https://archive.ics.uci.edu/ml/datasets/iris
 * https://support.sas.com/documentation/cdl/en/statug/63962/HTML/default/viewer.htm#statug_sashelp_sect007.htm
 * https://www.youtube.com/watch?v=PlrEJfvZRNo
 * Scikit learn - to revisit later -https://www.youtube.com/watch?v=hd1W4CyPX58
 * https://diwashrestha.com/2017/09/18/machine-learning-on-iris/
 * https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
+
+*Contents of the Fisher's Iris data set*
+*  http://archive.ics.uci.edu/ml/datasets/iris
 
 *What is unique about the Fisher's Iris data set?*
 * https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

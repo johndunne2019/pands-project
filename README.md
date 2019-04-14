@@ -25,7 +25,20 @@ John Dunne
 5. You will need to navigate to this folder location on the command line in order to run the program.
 6. Details on how to run each individual script in this repository is included later in this Readme file.
 
-## Contents of this repository
+## Project Plan
+
+**In completing this project I broke the overall task into several small tasks as follows. This is reflected in the layout of this Readme file which has been broke into section as listed in the Table of contents.**
+* Background on Ronald Fisher.
+* Introduction to the Fisher Iris data set. 
+* Contents of the data set.
+* More detailed information on the data set.
+* The Iris flower in more detail.
+* Examples of interesting analysis pursued by others into the Fisher's Iris data set
+* My Analysis of the Fisher's Iris Data Set
+* List of references compiled as I completed the research. 
+
+##Table of Contents
+
 * Readme File
 * Fishers_Iris_data_set.csv
 * Mean_Fisher_Iris.py
@@ -167,18 +180,21 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 ## Examples of interesting analysis pursued by others into the Fisher's Iris data set
 
-**In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that will form part of my analysis of the data set and also to learn from these examples.**
+**In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that could be useful to me in completing of my analysis of the data set.**
 
 **Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
-I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. pandas or Python Data Analysis Library is an open source library that provides data analysis tools for the python programming language. To further my knowledge of pandas I also read the ten minutes to pandas documentation here: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html.
-I liked the dataset.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I decided to use this feature in my analysis of the Fisher's Iris data set after reading this example analysis. 
+*dataframe.describe() and histogram*
+
+I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. Python Data Analysis Library or pandas is an open source library that provides data analysis tools for the python programming language. To further my knowledge of pandas I also read the ten minutes to pandas documentation here: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html.
+I liked the dataframe.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I decided to use this feature in my analysis of the Fisher's Iris data set after reading this example analysis. 
 Also in this analysis the author has created a histogram of the data to give a clearer view of distribution of the data. I will also try to do something similar in my analysis of the data set. 
+
 The histogram created by the author in this analysis is shown below:
 
 ![histogram](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/Histogram-Plots-for-Each-Input-Variable-for-the-Iris-Flowers-Dataset-1024x768.png)
 
-
+Image from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 
 ## My Analysis of the Fisher's Iris Data Set

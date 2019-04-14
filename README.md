@@ -29,6 +29,7 @@ John Dunne
 * Readme File
 * Fishers_Iris_data_set.csv
 * Mean_Fisher_Iris.py
+* Dataset_Describe.py
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 
@@ -62,7 +63,17 @@ Quote from: https://www.famousscientists.org/ronald-fisher/
 
 **Lady Tasting Tea**
 
-Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiment in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. Fisher set about disproving this claim by designing the experiment which consisted of 8 cups of tea, 4 made with the tea infused first and 4 made with the milk infused first. 
+Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiment in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. 
+
+*"There are \frac{8!}{4!4!}=70 distinct possible orderings of these cups, and by telling the subject in advance that there are four cups of each type, this guarantees that the answer will include four of each."* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
+
+![Lady tasting tea](https://s3.us-east-2.amazonaws.com/brainder/2015/tastingtea/tea_cups.png)
+
+The lady in question answered correctly 6 of the 8 trials, however Fisher concluded that it was not possible to prove that she would never be wrong - *"because if a sufficiently large number of cups of tea were offered, a single failure would disprove such hypothesis"* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
+
+Fisher's exact solution to the problem is shown here:
+![Solution](https://s0.wp.com/latex.php?latex=P_%7B%5Ctext%7BFisher%7D%7D+%3D+%5Cdfrac%7B%28a%2Bb%29%21%28c%2Bd%29%21%28a%2Bc%29%21%28b%2Bd%29%21%7D%7Bn%21a%21b%21c%21d%21%7D&bg=ffffff&fg=333333&s=0)
+
 
 ## Introduction to the Fisher's Iris Data Set
 
@@ -261,6 +272,7 @@ This script provides a description of the data set to the user using the datafra
 
 *Dataset_Describe.py*
 
+* Ten minutes to pandas as recommended reading: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 * I first saw an example of the dataset.describe() being user to analyse the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 * I then researched further: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and https://stackoverflow.com/questions/38545828/pandas-describe-by-additional-parameters
 * I read how to have the csv file read directly from my repository using the url link here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

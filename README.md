@@ -181,6 +181,10 @@ This file contains a program that calculates the mean of the columns of data in 
 
 I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
+**Dataset.Describe.py**
+
+This script provides a description of the data set to the user using the dataset.describe() function within pandas. I first came across the dataset.describe() function when I reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis and there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shorted name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it doesnt work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataset.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataset.describe() are set to 25%, 50% and 75%. Further information on the output included in dataset.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html. I have included the list of references I used in writing this script in the references section of this Readme file. 
+
 ## References
 
 **This section contains details on the references and research that went into compiling this project.**

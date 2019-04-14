@@ -33,16 +33,18 @@ John Dunne
 * Contents of the data set.
 * More detailed information on the data set.
 * The Iris flower in more detail.
-* Examples of interesting analysis pursued by others into the Fisher's Iris data set
-* My Analysis of the Fisher's Iris Data Set
+* Examples of interesting analysis pursued by others into the Fisher's Iris data set.
+* My Analysis of the Fisher's Iris Data Set.
 * List of references compiled as I completed the research. 
 
 ##Table of Contents
 
-* Readme File
-* Fishers_Iris_data_set.csv
-* Mean_Fisher_Iris.py
-* Dataset_Describe.py
+**Listed below are the main headings included in this Readme file, with each section broke out with subheadings**
+
+* Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
+* Introduction to the Fisher's Iris Data Set
+* Examples of interesting analysis pursued by others into the Fisher's Iris data set
+* My Analysis of the Fisher's Iris Data Set
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 

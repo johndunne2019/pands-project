@@ -65,14 +65,19 @@ Quote from: https://www.famousscientists.org/ronald-fisher/
 
 Apart from the Fisher Iris data set Ronald Fisher is also famous for another problem set called Lady Tasting Tea. Fisher published the experiment in his book - The Design of Experiments.The experiment originated when a lady claimed to be able to tell simply from tasting a cup of tea whether the tea or the milk had been infused first. 
 
-*"There are \frac{8!}{4!4!}=70 distinct possible orderings of these cups, and by telling the subject in advance that there are four cups of each type, this guarantees that the answer will include four of each."* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
+*"We will consider the problem of designing an experiment by means of which this assertion can be tested. […] [It] consists in mixing eight cups of tea, four in one way and four in the other, and presenting them to the subject for judgment in a random order. The subject has been told in advance of that the test will consist, namely, that she will be asked to taste eight cups, that these shall be four of each kind […]. — Fisher, 1935."* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
 ![Lady tasting tea](https://s3.us-east-2.amazonaws.com/brainder/2015/tastingtea/tea_cups.png)
+
+Image from: https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
 The lady in question answered correctly 6 of the 8 trials, however Fisher concluded that it was not possible to prove that she would never be wrong - *"because if a sufficiently large number of cups of tea were offered, a single failure would disprove such hypothesis"* - https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
 Fisher's exact solution to the problem is shown here:
+
 ![Solution](https://s0.wp.com/latex.php?latex=P_%7B%5Ctext%7BFisher%7D%7D+%3D+%5Cdfrac%7B%28a%2Bb%29%21%28c%2Bd%29%21%28a%2Bc%29%21%28b%2Bd%29%21%7D%7Bn%21a%21b%21c%21d%21%7D&bg=ffffff&fg=333333&s=0)
+
+Image from: https://brainder.org/2015/08/23/the-lady-tasting-tea-and-fishers-exact-test/
 
 
 ## Introduction to the Fisher's Iris Data Set

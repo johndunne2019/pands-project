@@ -27,7 +27,7 @@ John Dunne
 
 ## Project Plan
 
-**In completing this project I broke the overall task into several small tasks as follows. This is reflected in the layout of this Readme file which has been broke into section as listed in the Table of contents.**
+**In completing this project I broke the overall task into several small tasks as follows. This is reflected in the layout of this Readme file which has been broken into sections as listed in the Table of contents.**
 * Background on Ronald Fisher.
 * Introduction to the Fisher Iris data set. 
 * Contents of the data set.
@@ -37,7 +37,7 @@ John Dunne
 * My Analysis of the Fisher's Iris Data Set.
 * List of references compiled as I completed the research. 
 
-##Table of Contents
+## Table of Contents
 
 **Listed below are the main headings included in this Readme file, with each section broke out with subheadings**
 
@@ -182,7 +182,7 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 ## Examples of interesting analysis pursued by others into the Fisher's Iris data set
 
-**In this section I am looking at analysis that some people have completed on the data set. I am doing this with a view to gathering information that could be useful to me in completing of my analysis of the data set.**
+**In this section I am looking at some interesting analysis pursued by others based on the data set. I am doing this with a view to gathering information and ideas that could be useful to me in completing my analysis of the data set.**
 
 **Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 

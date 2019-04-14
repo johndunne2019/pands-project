@@ -183,13 +183,17 @@ I have started this script drawing on the reading of an example of an analysis i
 
 **Dataset.Describe.py**
 
-This script provides a description of the data set to the user using the dataset.describe() function within pandas. I first came across the dataset.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it doesnt work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataset.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataset.describe() are set to 25%, 50% and 75%. Further information on the output included in dataset.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
+This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
 
 *What does each row in the output represent*
 * count = total number of rows of data in the data set. 
-* mean = average measurement in cm recorded in each column of the data set, also known as the central tendency of the data. 
+* mean = the sum of each column of data divided by the count which gives the average measurement in cm also known as the central tendency of the data. 
 * std = standard deviation which is a measurement of the variance of each data point relative to the mean. 
-* min = the smallest data point in each column of data
+* min = the smallest measurement collected in cm in each column of the data set. 
+* 25% = the 25th percentile - meaning 25% of the total count of measurements collected fall below this measurement. 
+* 50% = the 50th or median percentile meaning this is the central measurement in cm collected in each column, half of the data collected falls below this measurement and half is above this measurement. Further details on how percentile is calculated can be read here: https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/percentiles-rank-range/.
+* 75% = the 75th percentile - meaning 75% of the total count of measurements collected fall below this measurement and 25% are above this measurement. 
+* max = the largest measurement collected in cm in each column of the data set. 
 
 
 ## References
@@ -261,6 +265,7 @@ This script provides a description of the data set to the user using the dataset
 * How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 * Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 * How to use dataset.describe() and what the output is: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+* 25th, 50th and 75th percentiles and how they are calculated: https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/percentiles-rank-range/
 
 *Analysis_Data_Set.py*
 * Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

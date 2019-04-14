@@ -18,7 +18,6 @@ The project concerns the well known Fisher's Iris data set. Through completion o
 John Dunne
 
 ## How to download this repository
-
 1. Go to GitHub.
 2. Go to my repository: https://github.com/johndunne2019/pands-project
 3. Click the clone/download button.
@@ -98,7 +97,7 @@ The Fisher's Iris data set is a data set that is commonly used in machine learni
 
 *"One flower species is linearly separable from the other two, but the other two are not linearly separable from each other."* - https://www.kaggle.com/meetsourav/clustering-with-iris-dataset
 
-*Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/*
+**Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
 * Attributes are numeric so you have to figure out how to load and handle data.
 * It is a classification problem, allowing you to practice with perhaps an easier type of supervised learning algorithm.

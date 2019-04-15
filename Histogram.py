@@ -3,6 +3,8 @@
 # To create a histogram of the data using matplotlib.pyplot 
 # Script adapted from example analysis read here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
+print("The Histogram will appear on your screen momentarily")
+# printed sentence to the screen as the historgram takes a few seconds to appear on the screen
 import matplotlib.pyplot as pl
 # imported matplotlib.pyplot which will be used to plot the histogram
 # matplotlib.pyplot documentation: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/hist.html

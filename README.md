@@ -332,5 +332,13 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * How to use dataset.describe() and what the output is: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
 * 25th, 50th and 75th percentiles and how they are calculated: https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/percentiles-rank-range/
 
+*Histogram.py*
+
+* Adapted from the analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* Further reading on matplotlib.pyplot: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/hist.html
+* pandas documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.hist.html
+* pyplot.hist(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/histogram_features.html
+* pyplot.show(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html
+
 *Analysis_Data_Set.py*
 * Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

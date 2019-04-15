@@ -58,6 +58,7 @@ John Dunne
     * Fishers_Iris_data_set.csv
     * Mean_Fisher_Iris.py
     * Dataset.Describe.py
+    * Histogram.py
 * References
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
@@ -252,6 +253,9 @@ This script provides a description of the data set to the user using the datafra
 * 75% = the 75th percentile - meaning 75% of the total count of measurements collected fall below this measurement and 25% are above this measurement. 
 * max = the largest measurement collected in cm in each column of the data set. 
 
+**Histogram.py**
+
+This program plots a histogram of the first 4 columns of data in the Fisher's Iris data set. I have adapted the script from the example analysis that I read from machine mystery learning at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I commented on this analysis in the previous section of this Readme file. This program uses pandas to read the csv file and matplotlib.pyplot to plot the histogram. Within matplotlib.pyplot, the pyplot.hist() command is used to plot the histogram and the pyplot.show() command is used to display the histogram. Within pandas, the csv file is read using pandas.read and the file is read directly from my repository using the url link. This is a short script that I adapted from the example analysis mentioned above and also drawing on additional reading that I completed that has been listed in the references section of this Readme file.
 
 ## References
 

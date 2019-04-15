@@ -55,6 +55,7 @@ John Dunne
 * Examples of interesting analysis pursued by others into the Fisher's Iris data set
     * Machine learning mystery
 * My Analysis of the Fisher's Iris Data Set
+    * Intro_Fisher_Iris.py
     * Fishers_Iris_data_set.csv
     * Mean_Fisher_Iris.py
     * Dataset.Describe.py
@@ -231,14 +232,14 @@ This file is a csv file containing the Fisher's Iris data set which I downloaded
 * The output will appear on the command line.
 * An example would be to run the script "Mean_Fisher_Iris.py" you should type python Mean_Fisher_Iris.py in cmder or command prompt and press the enter key. 
 
+**Intro_Fisher_Iris.py**
+
+This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. 
+
 **Mean_Fisher_Iris.py**
 
 This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. I used the genfromtxt function to read the csv file and set the delimiter as comma. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. I asked for the mean of the first 4 columns of the data set to be calculated and printed as output plus a sentence informing the user about the contents of the fifth column of the data set. In writing this script I used the week 9 lectures on numpy and matplotlib as a starting point and developed the code through further research which is detailed in the references section of this Readme file. 
   
-**Analysis_Data_Set.py**
-
-I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-
 **Dataset.Describe.py**
 
 This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
@@ -311,6 +312,13 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 *Fishers_Iris_data_set.csv:*
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.
 
+*Intro_Fisher_Iris.py*
+* Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* I read how to have the csv file read directly from my repository using the url link here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+* Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+* dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
+
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 
 * Week 9 video on matplotlib pyplot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
@@ -339,6 +347,3 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * pandas documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.hist.html
 * pyplot.hist(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/histogram_features.html
 * pyplot.show(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html
-
-*Analysis_Data_Set.py*
-* Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

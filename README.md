@@ -234,7 +234,8 @@ This file is a csv file containing the Fisher's Iris data set which I downloaded
 
 **Intro_Fisher_Iris.py**
 
-This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. 
+Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
+This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. I have used the dataframe.tail() function to show the last ten rows of the data set and in a similar way I have printed a sentence to inform the user they are the last ten rows of the data set. 
 
 **Mean_Fisher_Iris.py**
 
@@ -242,6 +243,7 @@ This file contains a program that calculates the mean of the columns of data in 
   
 **Dataset.Describe.py**
 
+Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
 This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
 
 *What does each row in the output represent*
@@ -318,6 +320,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 * Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 * dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
+* # Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
 
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 

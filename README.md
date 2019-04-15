@@ -27,7 +27,7 @@ John Dunne
 
 ## Project Plan
 
-**In completing this project I broke the overall task into several small tasks as follows. This is reflected in the layout of this Readme file which has been broken into sections as listed in the Table of contents.**
+**In completing this project I broke the overall task into several small tasks as described in this section. This is reflected in the layout of this Readme file which has been broken into sections as listed in the Table of contents.**
 * Background on Ronald Fisher.
 * Introduction to the Fisher Iris data set. 
 * Contents of the data set.
@@ -39,12 +39,26 @@ John Dunne
 
 ## Table of Contents
 
-**Listed below are the main headings included in this Readme file, with each section broke out with subheadings**
+**Listed below are the main headings included in this Readme file, with each section broke out into subheadings**
 
 * Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
+    * Interesting facts about Ronald Fisher
+    * Lady Tasting Tea
 * Introduction to the Fisher's Iris Data Set
+    * Contents of the Fisher's Iris Data Set
+    * What is unique about the Fisher's Iris data set?
+    * The Iris Flower
+    * Iris Setosa
+    * Iris Versicolor
+    * Iris Virginica
+    * What is the difference between Sepal and Petal?
 * Examples of interesting analysis pursued by others into the Fisher's Iris data set
+    * Machine learning mystery
 * My Analysis of the Fisher's Iris Data Set
+    * Fishers_Iris_data_set.csv
+    * Mean_Fisher_Iris.py
+    * Dataset.Describe.py
+* References
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 
@@ -201,7 +215,7 @@ Image from: https://machinelearningmastery.com/machine-learning-in-python-step-b
 
 ## My Analysis of the Fisher's Iris Data Set
 
-In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the data set. 
+**In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the data set.**
 
 **Fishers_Iris_data_set.csv**
 

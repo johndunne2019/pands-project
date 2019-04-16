@@ -200,7 +200,7 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 **In this section I am looking at some interesting analysis pursued by others based on the data set. I am doing this with a view to gathering information and ideas that could be useful to me in completing my analysis of the data set.**
 
-**Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
+**1. Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
 *dataframe.describe() and histogram*
 
@@ -214,6 +214,11 @@ The histogram created by the author in this analysis is shown below:
 
 Image from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
+The author also went on to conduct some more complicated analysis including scatterplots and evaluation of algorithms. Overall, I think this tutorial is a good starting point for someone looking to learn some basic data analysis using the Fisher's Iris data set. 
+
+**2. Machine Learning on Iris - https://diwashrestha.com/2017/09/18/machine-learning-on-iris/**
+
+The second example that I came across in the course of my research into the Fisher's Iris data set. 
 
 ## My Analysis of the Fisher's Iris Data Set
 
@@ -320,7 +325,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 * Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 * dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
-* # Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
+* Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
 
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 

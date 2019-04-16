@@ -218,13 +218,15 @@ The author also went on to conduct some more complicated analysis including scat
 
 **2. Machine Learning on Iris - https://diwashrestha.com/2017/09/18/machine-learning-on-iris/**
 
-The second example that I came across in the course of my research into the Fisher's Iris data set. In this analysis the author has used the built in dataset function in the seaborne module to read in the data set. They have also used the dataframe.describe() function within pandas in the same way as the author of the first analysis I looked at. An interesting thing the author has done is to split the data in two allocating 30% of the data as a test for evaluating the model. They have done this using the scikit learn train_test_split function. The author has used seaborne and matplotlib to plot a scatterplot of the data set and also a bar chart of the data set. 
+This is the second example that I came across in the course of my research into the Fisher's Iris data set. In this analysis the author has used the built in dataset function in the seaborne module to read in the data set. They have also used the dataframe.describe() function within pandas in the same way as the author of the first analysis I looked at. An interesting thing the author has done is to split the data in two allocating 30% of the data as a test for evaluating the model. They have done this using the scikit learn train_test_split function. The author has used seaborne and matplotlib to plot a scatterplot of the data set and also a bar chart of the data set. 
 
 The bar chart plotted by the author is shown below:
 
 ![bar chart](https://diwashrestha.com/wp-content/uploads/2017/09/plot.png)
 
 Image from: https://diwashrestha.com/wp-content/uploads/2017/09/plot.png
+
+Although this analysis offers some interesting insight in to what data analysis can be conducted using the Fisher Iris data set I found it to be a bit too complicated for a relatively inexperienced user. 
 
 ## My Analysis of the Fisher's Iris Data Set
 

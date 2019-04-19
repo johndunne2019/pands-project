@@ -234,6 +234,8 @@ Although this analysis offers some interesting insight in to what data analysis 
 
 **Libraries Used in my analysis**
 
+*In this section I have detailed some of the libraries I used in my analysis of the data set. Specific details on the libraries used for each script are included under the name of each script in the next section.*
+
 *Python Data Analysis Library - https://pandas.pydata.org/*
 
 I used the pandas library in my analysis of the Fisher's Iris data set. Some of the functions I used within the pandas library in my analysis of the data set included:
@@ -241,6 +243,14 @@ I used the pandas library in my analysis of the Fisher's Iris data set. Some of 
 * pandas.read to read in the csv file from my repository
 * Dataframe.describe() to output a summary of the data set to the user
 * Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set. 
+
+*numpy - https://www.numpy.org/*
+
+I used the numpy library in my analysis of the data set and some of the functions I used within numpy are listed below:
+
+* numpy.genfromtxt used to read in the data set csv file from my repository. 
+* numpy.mean used to calculate the mean of each column of data in the data set. 
+
 
 
 **Fishers_Iris_data_set.csv**

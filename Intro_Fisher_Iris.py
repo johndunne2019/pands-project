@@ -20,3 +20,7 @@ print(dataset.tail(10))
 # dataframe.tail() used to print the last ten rows of data to the screen
 # I have entered the parameter of 10, the default parameter is 5 
 # Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
+print("The dataframe.shape function within pandas will print the number of rows and columns to the screen below:")
+print(dataset.shape)
+# dataframe.shape used to print the no. of rows and columns to the screen.
+# Read about dataframe.shape here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html

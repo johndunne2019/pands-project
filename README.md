@@ -232,6 +232,17 @@ Although this analysis offers some interesting insight in to what data analysis 
 
 **In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the data set.**
 
+**Libraries Used in my analysis**
+
+*Python Data Analysis Library - https://pandas.pydata.org/*
+
+I used the pandas library in my analysis of the Fisher's Iris data set. Some of the functions I used within the pandas library in my analysis of the data set included:
+
+* pandas.read to read in the csv file from my repository
+* Dataframe.describe() to output a summary of the data set to the user
+* Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set. 
+
+
 **Fishers_Iris_data_set.csv**
 
 This file is a csv file containing the Fisher's Iris data set which I downloaded from the internet and saved in my repository. Further details in the references section of this Readme file. I have then used the data set as saved in this csv file to write some short scripts used to analyse the data set. These scripts are explained in further detail in this section and you can download and run these scripts on your local machine following the instructions below. 

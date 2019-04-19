@@ -202,8 +202,6 @@ Image of an Iris Flower showing Sepal and Petal. Taken from: https://www.fs.fed.
 
 **1. Machine learning mystery - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
-*dataframe.describe() and histogram*
-
 I came across this example in my online research and found it to be interesting and informative and I will draw on some of the topics and examples covered when completing my own analysis of the data set later. In this analysis they have used the pandas module to do some analysis on the data set. Python Data Analysis Library or pandas is an open source library that provides data analysis tools for the python programming language. To further my knowledge of pandas I also read the ten minutes to pandas documentation here: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html.
 I liked the dataframe.describe() function which printed a summary of the data set to the screen which included count of rows, mean, standard deviation, min and max. I liked this function as it gives the user a lot of insight into the data set and it is a simple operation. I decided to use this feature in my analysis of the Fisher's Iris data set after reading this example analysis. 
 Also in this analysis the author has created a histogram of the data to give a clearer view of distribution of the data. I will also try to do something similar in my analysis of the data set. 
@@ -228,6 +226,9 @@ Image from: https://diwashrestha.com/wp-content/uploads/2017/09/plot.png
 
 Although this analysis offers some interesting insight in to what data analysis can be conducted using the Fisher Iris data set I found it to be a bit too complicated for a relatively inexperienced user. 
 
+**3. Basic Analysis of the Iris Data set Using Python - https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342**
+
+
 ## My Analysis of the Fisher's Iris Data Set
 
 **In this section I have detailed the analysis that I carried out on the Fisher's Iris data set. I have broken down the contents of each file in my repository that has been use to analyse the data set.**
@@ -244,6 +245,7 @@ I used the pandas library in my analysis of the Fisher's Iris data set. Some of 
 * Dataframe.describe() to output a summary of the data set to the user.
 * Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
 * Dataframe.shape within pandas used to print the number of rows and columns in the data set. 
+* Dataframe.sample() used to return a random sample of rows from the data set. 
 
 *numpy - https://www.numpy.org/*
 
@@ -275,7 +277,7 @@ This file is a csv file containing the Fisher's Iris data set which I downloaded
 **Intro_Fisher_Iris.py**
 
 Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
-This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. I have used the dataframe.tail() function to show the last ten rows of the data set and in a similar way I have printed a sentence to inform the user they are the last ten rows of the data set. I have revisited and added the dataframe.shape function within pandas to tell the user the number of rows and columns in the data set. 
+This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. I have used the dataframe.tail() function to show the last ten rows of the data set and in a similar way I have printed a sentence to inform the user they are the last ten rows of the data set. I have revisited and added the dataframe.shape function within pandas to tell the user the number of rows and columns in the data set. I also added the dataframe.sample() function to return a random sample of rows from the data set and I entered the parameter 10 here to have 10 random rows returned to the user. 
 
 **Mean_Fisher_Iris.py**
 
@@ -361,7 +363,8 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 * dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
 * Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
-* dataframe.shape within pandas used to print the number of rows and columns in the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html and https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. 
+* dataframe.shape within pandas used to print the number of rows and columns in the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html and https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* Dataframe.shape() used to return a random sample of rows from the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
 
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 

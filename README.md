@@ -240,8 +240,8 @@ Although this analysis offers some interesting insight in to what data analysis 
 
 I used the pandas library in my analysis of the Fisher's Iris data set. Some of the functions I used within the pandas library in my analysis of the data set included:
 
-* pandas.read to read in the csv file from my repository
-* Dataframe.describe() to output a summary of the data set to the user
+* pandas.read to read in the csv file from my repository.
+* Dataframe.describe() to output a summary of the data set to the user.
 * Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
 * Dataframe.shape within pandas used to print the number of rows and columns in the data set. 
 
@@ -281,7 +281,7 @@ This script is intended to give a short introduction to the data set to the user
 
 This file contains a program that calculates the mean of the columns of data in the Fisher's Iris data set. I wrote this file using the numpy module and within the numpy module using the numpy.mean function to calculate the mean of the data in each column. I used the genfromtxt function to read the csv file and set the delimiter as comma. When I first wrote this program the output was nan (not a number) and I had to research how to skip the first row of the data set. I did this using skip_header=1. I also asked for the output to be rounded to one decimal place using the round function and I used formatted strings to return the output in a sentence. I asked for the mean of the first 4 columns of the data set to be calculated and printed as output plus a sentence informing the user about the contents of the fifth column of the data set. In writing this script I used the week 9 lectures on numpy and matplotlib as a starting point and developed the code through further research which is detailed in the references section of this Readme file. 
   
-**Dataset.Describe.py**
+**Dataset_Describe.py**
 
 Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
 This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 

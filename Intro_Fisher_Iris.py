@@ -24,3 +24,7 @@ print("The dataframe.shape function within pandas will print the number of rows 
 print(dataset.shape)
 # dataframe.shape used to print the no. of rows and columns to the screen.
 # Read about dataframe.shape here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html
+print("Below is a random sample of ten rows of data from the data set:")
+print(dataset.sample(10))
+#dataframe.sameple() used to return a sample of items within the data set. 
+# Read about dataframe.sample() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html

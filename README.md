@@ -242,7 +242,8 @@ I used the pandas library in my analysis of the Fisher's Iris data set. Some of 
 
 * pandas.read to read in the csv file from my repository
 * Dataframe.describe() to output a summary of the data set to the user
-* Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set. 
+* Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
+* Dataframe.shape within pandas used to print the number of rows and columns in the data set. 
 
 *numpy - https://www.numpy.org/*
 
@@ -274,7 +275,7 @@ This file is a csv file containing the Fisher's Iris data set which I downloaded
 **Intro_Fisher_Iris.py**
 
 Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
-This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. I have used the dataframe.tail() function to show the last ten rows of the data set and in a similar way I have printed a sentence to inform the user they are the last ten rows of the data set. 
+This script is intended to give a short introduction to the data set to the user. I have started this script drawing on the reading of an example of an analysis into the data set that I found online at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. The pandas module is imported and pandas.read is used to read the csv file directly from my repository. I have used header=0 to set the first row of data as the header for the output. I have used dataframe.head() function within pandas to return the first 10 rows of data as output when the script is run. I have entered the parameter 10 as the default parameter for dataframe.head()is 5. I have also printed a sentence to the screen to inform the user that the first 10 rows of the data set have been displayed. I have used the dataframe.tail() function to show the last ten rows of the data set and in a similar way I have printed a sentence to inform the user they are the last ten rows of the data set. I have revisited and added the dataframe.shape function within pandas to tell the user the number of rows and columns in the data set. 
 
 **Mean_Fisher_Iris.py**
 
@@ -360,6 +361,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * Header=0: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 * dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
 * Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
+* dataframe.shape within pandas used to print the number of rows and columns in the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html and https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. 
 
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
 

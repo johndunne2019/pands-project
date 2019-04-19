@@ -251,7 +251,12 @@ I used the numpy library in my analysis of the data set and some of the function
 * numpy.genfromtxt used to read in the data set csv file from my repository. 
 * numpy.mean used to calculate the mean of each column of data in the data set. 
 
+*matplotlib - https://matplotlib.org/*
 
+I used the matplotlib library in my analysis as follows:
+
+* matplotlib.pyplot function within the matplotlib library to plot a histogram of the data. 
+* dataset.hist() was used to plot the histogram and pyplot.show() used to display the histogram to the screen. 
 
 **Fishers_Iris_data_set.csv**
 

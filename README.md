@@ -228,7 +228,13 @@ Although this analysis offers some interesting insight in to what data analysis 
 
 **3. Basic Analysis of the Iris Data set Using Python - https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342**
 
-In this analysis the author has used the pandas.read function within the pandas library to read in the data set. They have used pandas to do some basic analysis on the data set including using dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set. They have also used dataframe.describe() to output a descriptiong of the data in each column of the data set and dataframe.sample() to show a sample of 5 random rows of the data set. 
+In this analysis the author has used the pandas.read function within the pandas library to read in the data set. They have used pandas to do some basic analysis on the data set including using dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set. They have also used dataframe.describe() to output a description of the data in each column of the data set and dataframe.sample() to show a sample of 5 random rows of the data set. The author has then plotted a boxplot of the data set using the built in dataframe.plot() function in pandas, further information about this pandas function can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html. 
+
+The boxplot plotted by the author is shown below:
+
+![Boxplot](https://cdn-images-1.medium.com/max/800/1*zrSR3wjI8iL3_v6wfsJo_Q.png)
+
+Image from: https://cdn-images-1.medium.com/max/800/1*zrSR3wjI8iL3_v6wfsJo_Q.png
 
 
 ## My Analysis of the Fisher's Iris Data Set

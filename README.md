@@ -236,6 +236,10 @@ The boxplot plotted by the author is shown below:
 
 Image from: https://cdn-images-1.medium.com/max/800/1*zrSR3wjI8iL3_v6wfsJo_Q.png
 
+**4. Python - IRIS Data visualization and explanation - https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation**
+
+In this analysis the author has read in the data set as a data frame using pandas.read function within the pandas library. They have used the dataframe.groupby function within pandas to show the number of rows of data for each of the species of flower in the data set. Further information on the dataframe.groupby function can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html. I added this feature to my analysis of the data set in the script - Intro_Fisher_Iris.py after reading this example analysis. 
+
 
 ## My Analysis of the Fisher's Iris Data Set
 
@@ -379,6 +383,10 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 * pandas dataframe.plt(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html
 * https://cdn-images-1.medium.com/max/800/1*zrSR3wjI8iL3_v6wfsJo_Q.png
+
+*4. Python - IRIS Data visualization and explanation*
+* https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+* pandas dataframe.groupby: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
 
 **My Analysis of the Fisher's Iris Data Set**
 

@@ -26,9 +26,9 @@ print(dataset.shape)
 # Read about dataframe.shape here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html
 print("Below is a random sample of ten rows of data from the data set:")
 print(dataset.sample(10))
-#dataframe.sameple() used to return a sample of items within the data set. 
+#dataframe.sample() used to return a sample of items within the data set. 
 # Read about dataframe.sample() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
-print("The dataset.groupby() function is used to group the rows of data by species below:")
+print("The dataset.groupby function is used to group the rows of data by species below:")
 print(dataset.groupby('species').size())
 # Adapted this line from sample analysis I looked at here: https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # Read about dataframe.groupby here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html

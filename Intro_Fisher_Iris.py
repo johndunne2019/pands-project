@@ -28,3 +28,6 @@ print("Below is a random sample of ten rows of data from the data set:")
 print(dataset.sample(10))
 #dataframe.sameple() used to return a sample of items within the data set. 
 # Read about dataframe.sample() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
+print("The dataset.groupby() function is used to group the rows of data by species below:")
+print(dataset.groupby('species').size())
+# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html

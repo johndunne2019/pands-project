@@ -382,11 +382,15 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 
 **My Analysis of the Fisher's Iris Data Set**
 
+*Libraries Used in my analysis*
+* Python Data Analysis Library - https://pandas.pydata.org/
+* numpy - https://www.numpy.org/
+* matplotlib - https://matplotlib.org/
+
 *Fishers_Iris_data_set.csv:*
 * Fisher's Iris data set downloaded from: https://gist.github.com/curran/a08a1080b88344b0c8a7 and saved as csv file in my repository.
 
 *Intro_Fisher_Iris.py*
-
 * Adapted from the tutorial here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 * I read how to have the csv file read directly from my repository using the url link here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 * How to read csv file using pandas.read: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
@@ -394,10 +398,9 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * dataframe.head(): https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
 * Read about dataframe.tail() here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html and http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/
 * dataframe.shape within pandas used to print the number of rows and columns in the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html and https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-* Dataframe.shape() used to return a random sample of rows from the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
+* Dataframe.sample() used to return a random sample of rows from the data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html
 
 *Mean_Fisher_Iris.py - Calculating the mean of a column in the data set*
-
 * Week 9 video on matplotlib pyplot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7
 * Week 9 video on numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91
 * Numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
@@ -407,7 +410,6 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * Skip_Header to skip the first row of data when calculating the mean: https://docs.scipy.org/doc/numpy-1.13.0/user/basics.io.genfromtxt.html
 
 *Dataset_Describe.py*
-
 * Ten minutes to pandas as recommended reading: https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 * I first saw an example of the dataset.describe() being user to analyse the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 * I then researched further: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and https://stackoverflow.com/questions/38545828/pandas-describe-by-additional-parameters
@@ -418,7 +420,6 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 * 25th, 50th and 75th percentiles and how they are calculated: https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/percentiles-rank-range/
 
 *Histogram.py*
-
 * Adapted from the analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 * Further reading on matplotlib.pyplot: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/hist.html
 * pandas documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.hist.html

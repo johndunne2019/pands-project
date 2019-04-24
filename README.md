@@ -315,6 +315,10 @@ This script provides a description of the data set to the user using the datafra
 
 This program plots a histogram of the first 4 columns of data in the Fisher's Iris data set. I have adapted the script from the example analysis that I read from machine mystery learning at this link: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I commented on this analysis in the previous section of this Readme file. This program uses pandas to read the csv file and matplotlib.pyplot to plot the histogram. Within matplotlib.pyplot, the pyplot.hist() command is used to plot the histogram and the pyplot.show() command is used to display the histogram. Within pandas, the csv file is read using pandas.read and the file is read directly from my repository using the url link. This is a short script that I adapted from the example analysis mentioned above and also drawing on additional reading that I completed that has been listed in the references section of this Readme file.
 
+**Box_Plot.py**
+
+This script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.plot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. I adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. 
+
 ## References
 
 **This section contains details on the references and research that went into compiling this project.**

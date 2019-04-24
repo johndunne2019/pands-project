@@ -258,6 +258,7 @@ I used the pandas library in my analysis of the Fisher's Iris data set. Some of 
 * Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
 * Dataframe.shape within pandas used to print the number of rows and columns in the data set. 
 * Dataframe.sample() used to return a random sample of rows from the data set. 
+* dataframe.groupby function to show number of rows of data for each of the 3 species of iris flower in the data set
 
 *numpy - https://www.numpy.org/*
 

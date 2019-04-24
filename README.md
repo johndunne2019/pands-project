@@ -317,7 +317,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 
 **Box_Plot.py**
 
-This script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.plot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. I adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. 
+This script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.boxplot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. I adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. 
 
 ## References
 
@@ -439,3 +439,8 @@ This script plots a box plot of the data set grouping the 3 species of iris flow
 * pandas documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.hist.html
 * pyplot.hist(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html and https://matplotlib.org/gallery/statistics/histogram_features.html
 * pyplot.show(): https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html
+
+*Box_Plot.py*
+* Adapted from : http://cmdlinetips.com/2018/03/how-to-make-boxplots-in-python-with-pandas-and-seaborn/
+* pandas box plot documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html
+* Further reading: https://stackoverflow.com/questions/29868091/boxplot-with-pandas-and-groupby and https://www.tutorialspoint.com/python/python_box_plots.htm

@@ -51,6 +51,15 @@ The first three sections of my project contain detailed information which I gath
 
 The fourth section of my project contains my analysis of the Fisher's Iris data set. In this section I have written 5 short python scripts used to investigate the data set. In the Readme file in this section I have details on how to run the code, what the code does and how to the code works which I compiled from my research into the data set and how to use python to analyse data. I would like the user to download each file in my repository and run the scripts to see the output for themselves. 
 
+The 5 scripts I have written to analyse the data set are saved in my repository at the following links:
+* Intro_Fisher_Iris.py - https://github.com/johndunne2019/pands-project/blob/master/Intro_Fisher_Iris.py
+* Mean_Fisher_Iris.py - https://github.com/johndunne2019/pands-project/blob/master/Mean_Fisher_Iris.py
+* Dataset.Describe.py - https://github.com/johndunne2019/pands-project/blob/master/Dataset_Describe.py
+* Histogram.py - https://github.com/johndunne2019/pands-project/blob/master/Histogram.py
+* Box_Plot.py - https://github.com/johndunne2019/pands-project/blob/master/Box_Plot.py
+
+The data set is saved in my repository in the following location: https://github.com/johndunne2019/pands-project/blob/master/Fishers_Iris_data_set.csv
+
 * References
 
 The final section of my project contains details of references and additional reading I completed in compiling this entire project. 

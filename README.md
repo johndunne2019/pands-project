@@ -54,7 +54,7 @@ The fourth section of my project contains my analysis of the Fisher's Iris data 
 The 5 scripts I have written to analyse the data set are saved in my repository at the following links:
 * Intro_Fisher_Iris.py - https://github.com/johndunne2019/pands-project/blob/master/Intro_Fisher_Iris.py
 * Mean_Fisher_Iris.py - https://github.com/johndunne2019/pands-project/blob/master/Mean_Fisher_Iris.py
-* Dataset.Describe.py - https://github.com/johndunne2019/pands-project/blob/master/Dataset_Describe.py
+* Dataset_Describe.py - https://github.com/johndunne2019/pands-project/blob/master/Dataset_Describe.py
 * Histogram.py - https://github.com/johndunne2019/pands-project/blob/master/Histogram.py
 * Box_Plot.py - https://github.com/johndunne2019/pands-project/blob/master/Box_Plot.py
 
@@ -93,7 +93,7 @@ The final section of my project contains details of references and additional re
     * How to download each script and run on your machine
     * Intro_Fisher_Iris.py
     * Mean_Fisher_Iris.py
-    * Dataset.Describe.py
+    * Dataset_Describe.py
     * Histogram.py
     * Box_Plot.py
 * References

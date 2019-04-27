@@ -72,10 +72,10 @@ The final section of my project contains details of references and additional re
     * Iris Virginica
     * What is the difference between Sepal and Petal?
 * Examples of interesting analysis pursued by others into the Fisher's Iris data set
-    * 1. Machine learning mystery
-    * 2. Machine Learning on Iris
-    * 3. Basic Analysis of the Iris Data set Using Python
-    * 4. Python - IRIS Data visualization and explanation 
+    1. Machine learning mystery
+    2. Machine Learning on Iris
+    3. Basic Analysis of the Iris Data set Using Python
+    4. Python - IRIS Data visualization and explanation 
 * My Analysis of the Fisher's Iris Data Set
     * Libraries Used in my analysis
     * Fishers_Iris_data_set.csv

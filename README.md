@@ -61,7 +61,7 @@ The 5 scripts I have written to analyse the data set are saved in my repository 
 The data set is saved in my repository in the following location: https://github.com/johndunne2019/pands-project/blob/master/Fishers_Iris_data_set.csv
 
 It is important to note that I have written 5 separate scripts here in order to give an introduction to the data set and show how some basic data analysis can be conducted using python. It is possible to conduct much more complex data analysis but for the purpose of this project I have focused on giving the user an introduction to data analysis using python. The scripts contained in my repository should provide useful insight into data analysis using python and they are suitable for complete newcomers with no previous experience using python to analyse data.
- 
+
 * References
 
 The final section of my project contains details of references and additional reading I completed in compiling this entire project. 
@@ -353,7 +353,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 
 **Box_Plot.py**
 
-This script is adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. The script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.boxplot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. 
+This script is adapted the script from the example I read here: http://cmdlinetips.com/2018/03/how-to-make-boxplots-in-python-with-pandas-and-seaborn/. The script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.boxplot function within pandas to plot the box plot of the data set. Further information on dataframe.boxplot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. 
 
 ## References
 

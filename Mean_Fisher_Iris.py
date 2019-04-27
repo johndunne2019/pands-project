@@ -16,7 +16,7 @@ data = np.genfromtxt('Fishers_Iris_data_set.csv',delimiter= ',', skip_header=1)
 
 meansepal_lenght= np.mean(data[:,0])
 # numpy.mean used to calculate the mean of the first column of data and subsequently the remaining columns of data
-# Read about nump.y mean here: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html
+# Read about numpy.mean here: https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html
 meansepal_width= np.mean(data[:,1])
 meanpetal_lenght= np.mean(data[:,2])
 meanpetal_width= np.mean(data[:,3])

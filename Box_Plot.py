@@ -12,7 +12,7 @@ dataset = pd.read_csv(data, header=0)
 # pandas.read used to read in the data set from my repository, header set to first row of data in the data set
 dataset.boxplot(by= 'species', grid=True)
 # pandas dataframe.boxplot used to plot box plot of data set: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html
-# Added grid and set box plot to group by species - one box plot per column will be plotted based on species
+# Added grid and set box plot to group by column 5 of the data set- species
 # So in this case 4 plots of - petal width and lenght and sepal width and lenght
 # Adapted from : http://cmdlinetips.com/2018/03/how-to-make-boxplots-in-python-with-pandas-and-seaborn/
 pl.show()

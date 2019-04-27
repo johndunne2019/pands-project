@@ -60,6 +60,8 @@ The 5 scripts I have written to analyse the data set are saved in my repository 
 
 The data set is saved in my repository in the following location: https://github.com/johndunne2019/pands-project/blob/master/Fishers_Iris_data_set.csv
 
+It is important to note that I have written 5 separate scripts here in order to give an introduction to the data set and show how some basic data analysis can be conducted using python. It is possible to conduct much more complex data analysis but for the purpose of this project I have focused on giving the user an introduction to data analysis using python. The scripts contained in my repository should provide useful insight into data analysis using python and they are suitable for complete newcomers with no previous experience using python to analyse data.
+ 
 * References
 
 The final section of my project contains details of references and additional reading I completed in compiling this entire project. 

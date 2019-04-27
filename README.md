@@ -169,7 +169,7 @@ The Fisher's Iris data set is a data set that is commonly used in machine learni
 
 *"One flower species is linearly separable from the other two, but the other two are not linearly separable from each other."* - https://www.kaggle.com/meetsourav/clustering-with-iris-dataset
 
-**Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
+*Listed below are some of the noteworthy features of the Iris data set taken from: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/*
 
 * Attributes are numeric so you have to figure out how to load and handle data.
 * It is a classification problem, allowing you to practice with perhaps an easier type of supervised learning algorithm.
@@ -279,10 +279,10 @@ In this analysis the author has read in the data set as a data frame using panda
 I used the pandas library in my analysis of the Fisher's Iris data set. Some of the functions I used within the pandas library in my analysis of the data set included:
 
 * pandas.read to read in the csv file from my repository.
-* Dataframe.describe() to output a summary of the data set to the user.
-* Dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
-* Dataframe.shape within pandas used to print the number of rows and columns in the data set. 
-* Dataframe.sample() used to return a random sample of rows from the data set. 
+* dataframe.describe() to output a summary of the data set to the user.
+* dataframe.head() and dataframe.tail() to output the first ten rows and last ten rows of the data set.
+* dataframe.shape within pandas used to print the number of rows and columns in the data set. 
+* dataframe.sample() used to return a random sample of rows from the data set. 
 * dataframe.groupby function to show number of rows of data for each of the 3 species of iris flower in the data set
 
 *numpy - https://www.numpy.org/*
@@ -324,7 +324,7 @@ This file contains a program that calculates the mean of the columns of data in 
 **Dataset_Describe.py**
 
 Please note- this script must be run while command prompt/cmder is in full screen mode to view all data.
-This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url, important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise. I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
+This script provides a description of the data set to the user using the dataframe.describe() function within pandas. I first came across the dataframe.describe() function when reading an example analysis of the Fisher's Iris data set here: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/. I thought it would be a nice addition to my analysis as there is a good concise summary of the data set returned to the user from a relatively short and simple script. In writing the script I imported the pandas module and gave it a shortened name. I then loaded the csv directly from my repository using the url (important to note the url was taken after I clicked the raw button on the csv file in repository as it does not work correctly otherwise). I also used header=0 to set the first row of the data set as the header for the output. Finally the dataframe.describe() function is printed to the screen which provides a summary of the data set to the user. The summary includes the count of the total number of rows of data in the data set, the mean of each column of data, the standard deviation, the min and the max value in each column. Also included in the summary is the upper, lower and 50 percentiles which by default in dataframe.describe() are set to 25%, 50% and 75%. Further information on the output included in dataframe.describe can be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html and I have also provided further details below. I have included the list of references I used in writing this script in the references section of this Readme file. 
 
 *What does each row in the output represent*
 * count = total number of rows of data in the data set. 
@@ -342,7 +342,7 @@ This program plots a histogram of the first 4 columns of data in the Fisher's Ir
 
 **Box_Plot.py**
 
-This script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.boxplot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. I adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. 
+This script is adapted the script from the example I read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. The script plots a box plot of the data set grouping the 3 species of iris flower by the 4 attributes- petal width, petal lenght, sepal width and sepal lenght. pandas.read is used to read in the data set and I used the dataframe.boxplot function within pandas to plot the box plot of the data set. Further information on dataframe.plot came be read here: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.boxplot.html. I set the plot to show the data by species and I used pyplot.show() within matplotlib to show the box plot to the screen. 
 
 ## References
 

@@ -37,6 +37,17 @@ John Dunne
 * My Analysis of the Fisher's Iris Data Set.
 * List of references compiled as I completed the research. 
 
+## How to navigate this project
+
+**I have broken this project into sections which are detailed in full in the Table of Contents. I have written a brief description here which I hope will help you in navigating this repository and running each script.**
+
+The first three sections of my project contain detailed information which I gathered through my research on the data set, the author of the data set and some example analysis I came across online into the data set. In these 3 sections I have gathered this information and laid it out for you to read in order to gain an understanding into the data set and how some data analysis can be conducted on the data set using python. 
+
+* Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
+* Introduction to the Fisher's Iris Data Set
+* Examples of interesting analysis pursued by others into the Fisher's Iris data set
+
+
 ## Table of Contents
 
 **Listed below are the main headings included in this Readme file, with each section broke out into subheadings**

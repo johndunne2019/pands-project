@@ -41,11 +41,19 @@ John Dunne
 
 **I have broken this project into sections which are detailed in full in the Table of Contents. I have written a brief description here which I hope will help you in navigating this repository and running each script.**
 
-The first three sections of my project contain detailed information which I gathered through my research on the data set, the author of the data set and some example analysis I came across online into the data set. In these 3 sections I have gathered this information and laid it out for you to read in order to gain an understanding into the data set and how some data analysis can be conducted on the data set using python. 
-
 * Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)
 * Introduction to the Fisher's Iris Data Set
 * Examples of interesting analysis pursued by others into the Fisher's Iris data set
+
+The first three sections of my project contain detailed information which I gathered through my research on the data set, the author of the data set and some example analysis I came across online into the data set. In these 3 sections I have gathered this information and laid it out for you to read in order to gain an understanding into the data set and how some data analysis can be conducted on the data set using python. 
+
+* My Analysis of the Fisher's Iris Data Set
+
+The fourth section of my project contains my analysis of the Fisher's Iris data set. In this section I have written 5 short python scripts used to investigate the data set. In the Readme file in this section I have details on how to run the code, what the code does and how to the code works which I compiled from my research into the data set and how to use python to analyse data. I would like the user to download each file in my repository and run the scripts to see the output for themselves. 
+
+* References
+
+The final section of my project contains details of references and additional reading I completed in compiling this entire project. 
 
 
 ## Table of Contents

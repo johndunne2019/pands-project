@@ -53,13 +53,19 @@ John Dunne
     * Iris Virginica
     * What is the difference between Sepal and Petal?
 * Examples of interesting analysis pursued by others into the Fisher's Iris data set
-    * Machine learning mystery
+    * 1. Machine learning mystery
+    * 2. Machine Learning on Iris
+    * 3. Basic Analysis of the Iris Data set Using Python
+    * 4. Python - IRIS Data visualization and explanation 
 * My Analysis of the Fisher's Iris Data Set
-    * Intro_Fisher_Iris.py
+    * Libraries Used in my analysis
     * Fishers_Iris_data_set.csv
+    * How to download each script and run on your machine
+    * Intro_Fisher_Iris.py
     * Mean_Fisher_Iris.py
     * Dataset.Describe.py
     * Histogram.py
+    * Box_Plot.py
 * References
 
 ## Sir Ronald Aylmer Fisher (February 17, 1890 - July 29, 1962)

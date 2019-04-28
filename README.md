@@ -102,8 +102,7 @@ The final section of my project contains details of references and additional re
 
 The author of the Fisher's Iris data set is Ronald Fisher (pictured below). 
 
-<p align="center"> src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG">
-</p>
+![Image of Ronald Fisher](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG)
 
 *Image taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Youngronaldfisher2.JPG/220px-Youngronaldfisher2.JPG*
 

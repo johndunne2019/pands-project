@@ -27,4 +27,4 @@ print(f"The mean of the first column of data- sepal lenght is: {meansepal_lenght
 print(f"The mean of the second column of data- sepal width is: {meansepal_width} rounded to one decimal place {(round(meansepal_width, 1))}")
 print(f"The mean of the third column of data- petal lenght is: {meanpetal_lenght} rounded to one decimal place {(round(meanpetal_lenght, 1))}")
 print(f"The mean of the fourth column of data- petal width is: {meanpetal_width} rounded to one decimal place {(round(meanpetal_width, 1))}")
-print("The fifth column of the data set contains the name of the variation of Iris flower")
+print("The fifth column of the data set contains the name of the species Iris flower")
